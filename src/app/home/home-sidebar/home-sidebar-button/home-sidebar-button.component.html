@@ -11,12 +11,24 @@
 </div>
 
 <div class="menu_btn">
-    <button>
+    <button class="menu-button">
         รายการยา
     </button>
-    <button>
+    <button class="menu-button">
         LAB
     </button>
     <img src="img/lab.png" alt="menu" style="width: 50px;height: 50px;">
 </div>
+    
+<style>
+    .menu-button {
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .menu-button:hover {
+        background-color: #007bff; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+        color: white; /* เปลี่ยนสีตัวอักษรเมื่อ hover */
+    }
+    </style>
+
 

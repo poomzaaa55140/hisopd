@@ -38,7 +38,7 @@
 .menu_btn button {
     font-family: 'Prompt', sans-serif;
     font-size: 1em; /* 16px / 16px */
-    font-weight: 700;
+    font-weight: 500;
     line-height: 100%;
     border: none;
     color: #FFF;
@@ -50,4 +50,9 @@
     padding: 1.0625em 1.5em;
     border-radius: 0.625em;
     background: #2C2C2C;
+
+    &:hover {
+        background-color: #0099ff;
+    }
+   
 }

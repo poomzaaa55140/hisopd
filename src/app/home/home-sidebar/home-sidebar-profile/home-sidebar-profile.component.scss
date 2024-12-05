@@ -22,14 +22,15 @@
     align-self: stretch;
     
     .gender_img img {
-    width: 1.2em;
-    height: 1.2em;
+    width: 1.6em;
+    height: 1.6em;
     padding: 0.2em;
-    left: 0.1em;
-    transform: scale(1.1);
+    transition: background-color 0.1s, transform 0.5s; // การทำ transition
     }
     
-    
+    img:hover {
+        transform: scale(1.7);   
+    }
 
 
 
