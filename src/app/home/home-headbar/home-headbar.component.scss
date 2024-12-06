@@ -15,12 +15,13 @@
     }
 
     .vital_sign{
-        min-height: 3.125em;
-        background-color: #ff3232;
+        font-family: 'Prompt', sans-serif  ;
+        min-height: 4em;
+        // background-color: #ff3232;
 }
     .headbar_btn{
-        min-height: 6.25em;
-        background-color: #6b5e83;
+        font-family: 'Prompt', sans-serif  ;
+        min-height: 4em;
         flex:1;
     }
 }

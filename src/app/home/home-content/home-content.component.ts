@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './home-content.component.scss'
 })
 export class HomeContentComponent {
-
+  constructor() {
+    console.log('HomeContentComponent initialized');
+  }
 }
