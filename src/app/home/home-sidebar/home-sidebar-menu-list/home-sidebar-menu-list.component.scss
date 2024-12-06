@@ -1,7 +1,7 @@
 * {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 0.625em;
     box-sizing: border-box;
     justify-content: center;
 
@@ -23,6 +23,6 @@ button {
     &:hover {
         background-color: #0099ff;  // เปลี่ยนสีพื้นหลังเมื่อ hover
         transform: scale(1.1);       // ขยายขนาดปุ่มเล็กน้อย
-        border-radius: 20px;
+        border-radius: 1.25em;
 }
 }
